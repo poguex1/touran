@@ -1,103 +1,46 @@
-# Volkswagen Touran 2012 Style
+# 🚐 Touran 2012 · Style Paket
 
-2012 model Volkswagen Touran Style paket aracın tanıtımı için hazırlanmış özel bir web projesidir.
+2012 model Volkswagen Touran için hazırlanmış kişisel araç tanıtım sayfası.
 
-Bu proje, araca ait fotoğrafların, teknik bilgilerin ve donanım detaylarının modern ve estetik bir tasarım içerisinde sunulması amacıyla geliştirilmiştir.
+**🔗 Canlı site:** [poguex1.github.io/touran](https://poguex1.github.io/touran/)
 
----
-
-## Proje Hakkında
-
-Bu web sitesi;
-
-* Aracın fotoğraflarını sergilemek,
-* Teknik bilgilerini sunmak,
-* Donanım özelliklerini tanıtmak,
-* Video içeriklerini yayınlamak,
-
-amacıyla hazırlanmıştır.
-
-Modern tasarım anlayışıyla geliştirilmiş olup masaüstü, tablet ve mobil cihazlarla uyumludur.
-
----
+> Bu bir satış ilanı değildir — aracın kendi sayfası niteliğinde, kişisel bir tanıtım/galeri sitesidir.
 
 ## Araç Bilgileri
 
-| Özellik | Bilgi            |
-| ------- | ---------------- |
-| Marka   | Volkswagen       |
-| Model   | Touran           |
-| Yıl     | 2012             |
-| Paket   | Style            |
-| Motor   | 1.6 TDI          |
-| Yakıt   | Dizel            |
-| Vites   | Manuel           |
-| Renk    | Koyu Gri Metalik |
+| Özellik | Değer |
+|---|---|
+| Model Yılı | 2012 |
+| Paket | Style |
+| Motor | 1.6 TDI (Dizel) |
+| Vites | Manuel |
+| Kilometre | 220.000 |
+| Renk | Koyu Gri Metalik |
 
----
+## İçerik
 
-## Kullanılan Teknolojiler
+- Otomatik oynatılan tanıtım videosu (hero bölümü)
+- 3 fotoğraflık galeri
+- Teknik künye / donanım listesi
+- Mobil uyumlu, tek sayfalık tasarım
 
-* HTML5
-* CSS3
-* JavaScript
-* Responsive Tasarım
+## Dosya Yapısı
 
----
-
-## Özellikler
-
-* Modern açılış ekranı
-* Fotoğraf galerisi
-* Donanım bölümü
-* Video gösterimi
-* Mobil uyumlu tasarım
-* Temiz ve sade kullanıcı arayüzü
-
----
-
-## Proje Yapısı
-
-```text
-project/
-│
-├── index.html
-├── README.md
-│
-├── images/
-│   ├── touran-on.jpg
-│   ├── touran-arka.jpg
-│   └── diğer fotoğraflar
-│
-└── videos/
-    └── arac-videosu.mp4
+```
+.
+├── index.html          # Ana sayfa
+└── images/
+    ├── touran-on.jpg
+    ├── touran-arka.jpg
+    ├── touran-ust.jpg
+    └── touran-video.mp4
 ```
 
+## Yayınlama
 
-## Telif Hakkı ve Kullanım Şartları
-
-© 2025 Tüm Hakları Saklıdır.
-
-Bu projede yer alan;
-
-* Fotoğraflar
-* Video içerikleri
-* Grafikler
-* Tasarım öğeleri
-* Metin içerikleri
-
-eser sahibinin yazılı izni olmadan kopyalanamaz, çoğaltılamaz, dağıtılamaz, yeniden yayınlanamaz ve ticari amaçla kullanılamaz.
-
-Bu depoda bulunan görseller yalnızca ilgili araç tanıtımı amacıyla paylaşılmıştır.
-
-Fotoğrafların veya videoların herhangi bir internet sitesi, sosyal medya hesabı, ilan platformu veya başka bir projede izinsiz kullanılması yasaktır.
-
-Yetkisiz kullanım durumunda ilgili fikri mülkiyet hakları kapsamında yasal işlem başlatılabilir.
+Bu site GitHub Pages üzerinde ücretsiz olarak barındırılmaktadır.
+`main` dalına yapılan her değişiklik otomatik olarak canlıya yansır.
 
 ---
 
-## Not
-
-Bu proje kişisel kullanım ve tanıtım amacıyla hazırlanmıştır.
-
-Bu depo bir satış platformu veya resmi Volkswagen yayını değildir.
+*Kişisel proje · 2026*
