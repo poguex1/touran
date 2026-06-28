@@ -19,21 +19,29 @@
 
 ## İçerik
 
-- Otomatik oynatılan tanıtım videosu (hero bölümü)
-- 3 fotoğraflık galeri
-- Teknik künye / donanım listesi
-- Mobil uyumlu, tek sayfalık tasarım
+- Janjanlı açılış ekranı (preloader)
+- Otomatik oynatılan tanıtım videosu (hero bölümü, parallax efektli)
+- Sabit üst navigasyon (masaüstü) + alt navigasyon (mobil), scroll'a göre aktif bölüm vurgusu
+- 3 fotoğraflık galeri + tıklanınca tam ekran açılan lightbox (klavye/ok desteği)
+- Sürükleyerek çevrilen "360 hissi" fotoğraf görüntüleyici
+- Sekmeli özellik bölümü (Dış Donanım / İç Donanım)
+- Standart vs Style paket karşılaştırma tablosu
+- Dikey zaman çizelgesi (2012 → bugün)
+- Sayaç animasyonlu istatistik şeridi ve kilometre göstergesi
+- Gece/Gündüz tema değiştirici (tercih hatırlanır)
+- Butonla tetiklenen sentetik motor sesi (Web Audio API, dış ses dosyası yok)
+- Sahibinden el yazısı tarzı kısa not
+- Sayfayı paylaş butonu (native paylaşım / link kopyalama) ve QR kod
+- Cihaz-bazlı (şişirilmemiş) ziyaretçi sayacı
+- Masaüstünde özel direksiyon imleci, favicon
+- Yukarı çık butonu
+- Mobil uyumlu, lazy-load ile optimize edilmiş tek sayfalık tasarım
 
 ## Dosya Yapısı
 
 ```
 .
-├── index.html          # Ana sayfa
-└── images/
-    ├── touran-on.jpg
-    ├── touran-arka.jpg
-    ├── touran-ust.jpg
-    └── touran-video.mp4
+└── index.html   # Tek dosya — tüm görseller ve video base64 olarak gömülü
 ```
 
 ## Yayınlama
